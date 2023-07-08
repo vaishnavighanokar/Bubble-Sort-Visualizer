@@ -1,0 +1,24 @@
+#container{
+    height: 200px;
+    display: flex;
+    align-items: flex-end;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+ }
+ .bar{
+    width: 10px;
+    background-color: black;
+    margin: 2px;
+ }
+ #buttons button{
+   background-color: azure;
+   font-style: normal;
+   font-size: medium;
+   border-radius:1px;
+   color: black;
+   padding: 5px;
+ }
